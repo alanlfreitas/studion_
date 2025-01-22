@@ -1,9 +1,12 @@
 nav {
-    width: 80%;
+    max-width: 115rem;
+    width: 100%;
     margin: 2rem auto;
     display: flex;
-    justify-content: space-around;
-    background-color: #999;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 h1 {
@@ -29,11 +32,12 @@ h1 {
     text-transform: uppercase;
 }
 
-ul {
-    display: flex;
+nav ul {
+    width: 100%;
+    display: grid;
     list-style: none;
-    height: 5rem;
     align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 
 a {

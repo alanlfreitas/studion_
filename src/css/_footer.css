@@ -60,7 +60,7 @@ footer > div > form > button {
 }
 
 footer > hr {
-    width: 100%;
+    width: 80%;
     height: 0px;
     stroke-width: 0.05rem;
     stroke: var(--text-primary);
